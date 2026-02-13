@@ -4,13 +4,14 @@
 
 ## 機能
 
-- 楽天市場の商品検索: キーワードによる商品情報の取得（名称、価格、URL等）
-- 楽天ブックスの検索: 書籍タイトルによる情報の取得（タイトル、著者、価格等）
+- 楽天市場の商品検索: キーワードによる商品情報の取得 (名称、価格、URL等)
+- 楽天ブックスの検索: 書籍タイトルによる情報の取得 (タイトル、著者、価格等)
 
 ## インストール
 
 ```bash
-pip install .
+uv venv
+uv sync
 ```
 
 ## 使い方
@@ -34,6 +35,6 @@ Claude Desktop などの MCP クライアントの設定に以下を追加して
 
 ## 構成
 
-- `src/main.py`: MCP サーバーのエントリーポイント、ツールの定義。
-- `src/rakuten_api/client.py`: 楽天APIとの通信を行うクライアント。
-- `src/rakuten_api/models.py`: Pydantic モデルによるデータ定義。
+- `src/main.py`: MCP サーバーのエントリーポイント、ツールの定義
+- `src/rakuten_api/client.py`: 楽天APIとの通信を行うクライアント
+- `src/rakuten_api/models.py`: Pydantic モデルによるデータ定義
