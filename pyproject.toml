@@ -1,7 +1,7 @@
 [project]
 name = "rakuten-api-mcp"
 version = "0.1.0"
-description = "楽天APIを介して楽天市場や楽天ブックスの情報を検索するための MCP サーバー"
+description = "楽天のAPIを介して楽天市場や楽天ブックスの情報を検索する MCP サーバー"
 authors = [
     { name = "Marumasa" }
 ]
