@@ -1,6 +1,4 @@
 import os
-import asyncio
-from typing import Optional
 from dotenv import load_dotenv
 from mcp.server.fastmcp import FastMCP
 from rakuten_api import RakutenClient

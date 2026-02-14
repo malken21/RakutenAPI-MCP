@@ -1,4 +1,3 @@
-import asyncio
 from unittest.mock import patch, MagicMock
 import pytest
 from rakuten_api.client import RakutenClient

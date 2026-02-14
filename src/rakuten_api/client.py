@@ -1,6 +1,5 @@
 import httpx
-from typing import Dict, Any, Optional
-from .models import IchibaSearchResponse
+from typing import Dict, Any
 
 class RakutenClient:
     BASE_URL = "https://app.rakuten.co.jp/services/api"
